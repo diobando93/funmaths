@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <!-- Load the latest version of TensorFlow.js -->
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
+    <script src="https://unpkg.com/@tensorflow-models/knn-classifier"></script>
+  </head>
+  <body>
+    <div id="console"></div>
+    <!-- Add an image that we will use to test -->
+    <!--img id="img" crossOrigin src="https://i.imgur.com/JlUvsxa.jpg" width=227 height=227/-->
+    <video autoplay playsinline muted id="webcam" width="224" height="224"></video>
+
+    <button id="class-s">Add Scenario</button>
+    <button id="class-a">Add Numnber 1</button>
+    <button id="class-b">Add Number 2</button>
+    <button id="class-c">Add  Number 3</button>
+    <button id="class-d">Add  Number 4</button>
+    <button id="class-m">Math Table</button>
+    <div id="console2"></div>
+    <!-- Load index.js after the content of the page -->
+    <script src="index.js"></script>
+  </body>
+</html>
